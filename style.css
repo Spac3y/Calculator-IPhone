@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	color: white;
+	background-color: black;
+	font-family:'Helvetica Neue';
+	margin: 0 auto;
+}
+
+.container {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+
+.output {
+	/* border: 1px solid white; */
+	font-size: 350%;
+	height:100px;
+	max-width: 220px;
+	margin: 15px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.button-container {
+	padding: 10px;
+	max-height: 300px;
+	max-width: 220px;
+	display: grid;
+
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+button {
+	font-size: x-large;
+	height: 50px; 
+	width: 50px; 
+	text-align: center;
+	border: 0px transparent;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+button.functions {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+button.operation { 
+	background-color: #ff9f0a;
+	color: white;
+}
+
+button.numbers { 
+	background-color: #333333;
+	color: white;
+}
+
+button.numbers.special {
+	text-align: start;
+	padding-left: 10px;
+	width: 100px;
+	border-radius: 50px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
