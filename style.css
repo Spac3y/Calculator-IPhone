@@ -8,17 +8,16 @@ body {
 }
 
 .container {
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center; */
+	height: 450px;
+	width: 250px;
+	resize: both;
+	overflow: auto;
+	/* border: 1px solid white; */
 }
 
 .output {
-	/* border: 1px solid white; */
 	font-size: 350%;
-	height:100px;
-	max-width: 220px;
+	/* max-width: 220px; */
 	margin: 15px;
 	display: flex;
 	justify-content: end;
@@ -27,9 +26,11 @@ body {
 
 .button-container {
 	padding: 10px;
-	max-height: 300px;
-	max-width: 220px;
+	max-height: 70%;
+	/* max-width: 220px; */
 	display: grid;
+	margin: 0 auto;
+	padding: 3px auto;
 
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 20% 20% 20% 20% 20%;
@@ -37,12 +38,12 @@ body {
 
 button {
 	font-size: x-large;
-	height: 50px; 
-	width: 50px; 
+	margin: 10px;
+	height: 50px;
+	width: 50px;
 	text-align: center;
 	border: 0px transparent;
 	border-radius: 50px;
-	margin: 10px;
 }
 
 button.functions {
